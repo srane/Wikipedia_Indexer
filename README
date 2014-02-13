@@ -1,0 +1,12 @@
+The project aims to build a Wikipedia Indexer with following goals:
+
+1. Parse fairly involved Wikipedia Markup. I did this using the SAX Parser. The reason for choosing a SAX Parser over 
+the DOM Parser is the large size of Input. DOM parsers load the entire xml file into the main memory before parsing. A SAX 
+parser is much more efficient and Parses the xml file using events.
+
+2. Index a Decent sized subset of Wikipedia corpus. Successful run on 1600 wikipedia pages and minor issues with a corpus 
+of 4000 Wikipedia Pages which has been fixed.
+
+3. Create Multiple indexes on the page data as well as metadeta.
+
+4. Provide an index introspection mechanism that can later be built upon to support queries.
