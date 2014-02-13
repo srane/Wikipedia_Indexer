@@ -10,3 +10,8 @@ of 4000 Wikipedia Pages which has been fixed.
 3. Create Multiple indexes on the page data as well as metadeta.
 
 4. Provide an index introspection mechanism that can later be built upon to support queries.
+
+TO RUN THE PROJECT:
+
+Import the project into Eclipse and Simply Run it. The Index files are serializeable and cannot be read. Please contact 
+me for further details. I am reachable on srane@buffalo.edu. 
